@@ -1,0 +1,13 @@
+.Page {
+    display: flex;
+
+    &-LeftPart {
+        width: 40%;
+        padding: 0 16px;
+    }
+
+    &-RightPart {
+        width: 60%;
+        padding: 0 16px;
+    }
+}

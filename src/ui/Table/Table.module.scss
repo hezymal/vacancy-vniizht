@@ -1,0 +1,31 @@
+.Table {
+    border-collapse: collapse;
+    cursor: default;
+    width: 100%;
+}
+
+.TableTitle {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 8px 0;
+}
+
+.TableHead {
+    color: #888;
+}
+
+.TableCell,
+.TableHeadCell {
+    border-bottom: 1px solid #aaa;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.TableBody {
+    .TableRow {
+        &:hover {
+            background-color: #eee;
+        }
+    }
+}

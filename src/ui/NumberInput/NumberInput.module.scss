@@ -1,0 +1,12 @@
+.NumberInput {
+    border: none;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 4px;
+    width: 100%;
+    text-align: center;
+
+    &_invalid {
+        background-color: #fdd;
+    }
+}

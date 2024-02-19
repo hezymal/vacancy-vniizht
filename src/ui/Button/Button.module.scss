@@ -1,0 +1,13 @@
+.Button {
+    background-color: white;
+    border: 1px solid #444;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 16px;
+
+    &:disabled {
+        border-color: #aaa;
+    }
+}

@@ -1,0 +1,17 @@
+.Alert {
+    border: 1px solid #444;
+    padding: 8px 16px;
+    text-align: center;
+
+    &_type {
+        &_info {
+            border-color: #44c;
+            color: #44c;
+        }
+
+        &_error {
+            border-color: #a44;
+            color: #a44;
+        }
+    }
+}
